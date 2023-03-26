@@ -21,7 +21,7 @@
   test-data: |
     Сайт https://hexlet-products-store.vercel.app/ 
   steps:
-    - В фильтре "Категория" выбираем "skincare"
+    - В фильтре "Категория" выбираем "home-decoration"
   expected-result: |
     На странице появляются товары выбранной категории
     
@@ -34,6 +34,19 @@
   test-data: |
      Сайт https://hexlet-products-store.vercel.app/
   steps:
-    - В фильтре "Цвет" выбираем "Чёрный"
+    - В фильтре "Цвет" выбираем "Молочный"
   expected-result: |
     На странице появляются товары выбранного цвета
+    
+    - summary: |
+    Пользователь может фильтровать товары по размеру
+  requirement: |
+    Пользователь должен иметь возможность фильтровать товары по размеру
+  prerequisites:
+    Открыт сайт магазина, язык сайта английский
+  test-data: |
+     Сайт https://hexlet-products-store.vercel.app/
+  steps:
+    - В фильтре "Size" выбираем "Small"
+  expected-result: |
+    На странице появляются товары выбранного размера
