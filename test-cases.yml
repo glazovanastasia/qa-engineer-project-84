@@ -112,9 +112,8 @@
   test-data: |
     Сайт https://hexlet-products-store.vercel.app/
   steps:
-    - Кликаем правой кнопкой мыши на пустом поле страницы
-    - Нажимаем "Посмотреть код"
-    - В инструментах разработчика кликаем на иконку "Toggle device toolbar"
+    - Нажать "Посмотреть код"
+    - Кликнуть на иконку "Toggle device toolbar"
   expected-result: |
     Открылась мобильная версия сайта и работает корректно
     
@@ -127,9 +126,9 @@
   test-data: |
     Сайт https://hexlet-products-store.vercel.app/
   steps:
-    - открыть сайт в Google Chrome
-    - открыть сайт в Firefox
-    - открыть сайт в Safari
+    - Открыть сайт в Google Chrome
+    - Открыть сайт в Firefox
+    - Открыть сайт в Safari
   expected-result: |
     Сайт открывается
     
@@ -142,10 +141,10 @@
   test-data: |
     Ссылка https://hexlet-products-store.vercel.app/
   steps:
-    - вставить в поле ввода ссылку на наш интернет-магазин
-    - кликнуть по кнопке "Бесплатная проверка"
-    - ожидать очереди проверки на тестирование
-    - получение результата
+    - Вставить в поле ввода ссылку на наш интернет-магазин
+    - Кликнуть "Бесплатная проверка"
+    - Ожидать очереди проверки на тестирование
+    - Получение результата
   expected-result: |
     Результат проверки 8/10
     
@@ -160,5 +159,32 @@
   steps:
     - 
   expected-result: |
+  
+- summary: |
+    Проверка адаптивной вёрстки сайта
+  requirement: |
+    Сайт должен иметь адаптивную вёрстку
+  prerequisites: |
+    Открыть сайт магазина  
+  test-data: |
+    Сайт https://hexlet-products-store.vercel.app/
+  steps:
+    - Открыть Devtools
+    - Нажать "Toggle device toolbar"
+  expected-result: |
+    Сайт имеет адаптивную вёрстку
     
-
+  - summary: |
+    Проверка SPA сайта
+  requirement: |
+    Сайт должен быть SPA приложением, которое не перезагружает страницу
+  prerequisites: |
+    Открыть сайт магазина  
+  test-data: |
+    Сайт https://hexlet-products-store.vercel.app/
+  steps:
+    - Открыть главную страницу
+    - Сделать скролл товаров
+    - Перейти на другую страницу
+  expected-result: |
+    Сайт является SPA приложением, страницы не перезагружаются
