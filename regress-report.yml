@@ -32,7 +32,6 @@ test-cases:
       Проверка адаптивной вёрстки сайта
     status: fail
 
-
   - summary: |
       Кроссбраузерность сайта
     status: pass
@@ -42,7 +41,6 @@ test-cases:
     status: fail
 
 bugreports:
-
   - summary: |
       Проверка SPA сайта
     status: pass
