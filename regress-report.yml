@@ -106,7 +106,7 @@ bugreports:
       Google Chrome   111.0.5563.111 (Официальная сборка), (64 бит)
       ОС Windows 11 Pro
     steps-to-reproduce: |
-      1. Открыть сайт https://hexlet-products-store.vercel.app/
+      1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Переключить вкладку Language на русский язык
     expected-result: |
       Весь текст сайта, за исключением наименования товаров, имеет корректный перевод, не изменяя смысл
@@ -122,7 +122,7 @@ bugreports:
       Google Chrome   111.0.5563.111 (Официальная сборка), (64 бит)
       ОС Windows 11 Pro
     steps-to-reproduce: |
-      1. Открыть сайт https://hexlet-products-store.vercel.app/
+      1. Открыть сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Выбрать товар и добавить нужное количество в корзину
       3. Перейти в корзину, затем перейти к оформлению заказа
       4. Выбрать способы получения, оплаты
