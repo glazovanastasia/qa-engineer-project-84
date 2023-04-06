@@ -33,7 +33,7 @@ test-cases:
     status: pass
     
   - summary: |
-      Проверка адаптивной вёрстки сайта
+      Проверка мобильной версии сайта
     status: pass
     
   - summary: |
